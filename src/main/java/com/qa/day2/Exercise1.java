@@ -1,13 +1,15 @@
 package com.qa.day2;
 
-public class exercise1 {
+import java.sql.SQLOutput;
+
+public class Exercise1 {
 
     public static void main(String[] args) {
         resultsThreeIntegers();
-
+        
     }
 
-        public static void resultsThreeIntegers (){
+        public static int resultsThreeIntegers (){
             int num1 = 3;
             int num2 = 4;
             int num3 = 20;
@@ -17,6 +19,15 @@ public class exercise1 {
             System.out.println(result1);
             System.out.println(result2);
             System.out.println(result3);
+
+                if(num3 < num2) {
+                    System.out.println(result3);
+                    return result3;
+
+                } else {
+                    System.out.println("DIVISION CANNOT BE PERFORMED");
+                    return 0;
+                }
 
         }
 }
