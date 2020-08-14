@@ -15,9 +15,9 @@ public class CipherPeerProgramme {
             Collections.reverse(cipher);
             System.out.println(english);
             System.out.println(cipher);
-            method1("yes");
+            method1("wizard");
         }
-        public static void method1(String letter){
+        public static String method1(String letter){
             String[] array = letter.split("",0);
             String test ="";
             for (String value : array) {
@@ -31,6 +31,7 @@ public class CipherPeerProgramme {
                 }
             }
             System.out.println(test);
+            return test;
         }
     }
 
