@@ -4,7 +4,7 @@ import java.util.ArrayList;
 public class Calculator2 {
 
     public static void main(String[] args) {
-        method1();
+        method1("3","4","8");
     }
 
     public ArrayList method1(String a, String b, String c) {
@@ -57,4 +57,5 @@ public class Calculator2 {
 
         return possCalc;
     }
-}*/
+}
+*/
