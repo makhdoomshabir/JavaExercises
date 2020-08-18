@@ -10,11 +10,6 @@ public class MorseCode {
         MorseCode morse = new MorseCode();
         System.out.println(morse.method1("Hello World"));
         System.out.println(morse.method2("...././.-../.-../---"));
-//Collections.addAll(alphabet, "a","b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p",
-        //"q", "r", "s", "t", "u", "v", "w", "x", "y", "z");
-        //Collections.addAll(morsealphabet, ".-","-...","-.-.", "-..", ".", "..-.","--.","....","..",".---","-.-",".-..","--","-.","---",".--.","--.-",".-.","...","-","..-","...-",".--","-..-","-.--","--..");
-        //System.out.println(method1("Hello World"));
-        //System.out.println(method2(".../---/..."));
     }
     public String method1(String morse){
         String[] array = morse.split("",0);
